@@ -1,0 +1,388 @@
+
+{
+    "𐑐": {
+       "Type": "Tall",
+       "IPA Sound": "p",
+       "Name in Latin": "pin",
+       "Name in Shavian": "𐑐𐑦𐑯",
+       "Name in IPA": "pɪn",
+       "Frequency": 14
+    },
+    "𐑚": {
+       "Type": "Deep",
+       "IPA Sound": "b",
+       "Name in Latin": "bell",
+       "Name in Shavian": "𐑚𐑧𐑤",
+       "Name in IPA": "bel",
+       "Frequency": 19
+    },
+    "𐑑": {
+       "Type": "Tall",
+       "IPA Sound": "t",
+       "Name in Latin": "tan",
+       "Name in Shavian": "𐑑𐑨𐑯",
+       "Name in IPA": "tæn",
+       "Frequency": 3
+    },
+    "𐑛": {
+       "Type": "Deep",
+       "IPA Sound": "d",
+       "Name in Latin": "done",
+       "Name in Shavian": "𐑛𐑳𐑯",
+       "Name in IPA": "dʌn",
+       "Frequency": 7
+    },
+    "𐑒": {
+       "Type": "Tall",
+       "IPA Sound": "k",
+       "Name in Latin": "key",
+       "Name in Shavian": "𐑒𐑰",
+       "Name in IPA": "kiː",
+       "Frequency": 9
+    },
+    "𐑜": {
+       "Type": "Deep",
+       "IPA Sound": "g",
+       "Name in Latin": "gill",
+       "Name in Shavian": "𐑜𐑦𐑤",
+       "Name in IPA": "ɡɪl",
+       "Frequency": 30
+    },
+    "𐑓": {
+       "Type": "Tall",
+       "IPA Sound": "f",
+       "Name in Latin": "fay",
+       "Name in Shavian": "𐑓𐑱",
+       "Name in IPA": "feɪ",
+       "Frequency": 22
+    },
+    "𐑝": {
+       "Type": "Deep",
+       "IPA Sound": "v",
+       "Name in Latin": "vie",
+       "Name in Shavian": "𐑝𐑲",
+       "Name in IPA": "vaɪ",
+       "Frequency": 16
+    },
+    "𐑔": {
+       "Type": "Tall",
+       "IPA Sound": "θ",
+       "Name in Latin": "thorn",
+       "Name in Shavian": "𐑔𐑹𐑯",
+       "Name in IPA": "θɔːRn",
+       "Frequency": 41
+    },
+    "𐑞": {
+       "Type": "Deep",
+       "IPA Sound": "ð",
+       "Name in Latin": "thou",
+       "Name in Shavian": "𐑞𐑬",
+       "Name in IPA": "ðaʊ",
+       "Frequency": 8
+    },
+    "𐑕": {
+       "Type": "Tall",
+       "IPA Sound": "s",
+       "Name in Latin": "see",
+       "Name in Shavian": "𐑕𐑰",
+       "Name in IPA": "siː",
+       "Frequency": 5
+    },
+    "𐑟": {
+       "Type": "Deep",
+       "IPA Sound": "z",
+       "Name in Latin": "zoo",
+       "Name in Shavian": "𐑟𐑵",
+       "Name in IPA": "zuː",
+       "Frequency": 10
+    },
+    "𐑖": {
+       "Type": "Tall",
+       "IPA Sound": "ʃ",
+       "Name in Latin": "shy",
+       "Name in Shavian": "𐑖𐑲",
+       "Name in IPA": "ʃaɪ",
+       "Frequency": 28
+    },
+    "𐑠": {
+       "Type": "Deep",
+       "IPA Sound": "ʒ",
+       "Name in Latin": "zho",
+       "Name in Shavian": "𐑠𐑴",
+       "Name in IPA": "ʒəʊ",
+       "Frequency": 48
+    },
+    "𐑗": {
+       "Type": "Tall",
+       "IPA Sound": "ʧ",
+       "Name in Latin": "cha",
+       "Name in Shavian": "𐑗𐑭",
+       "Name in IPA": "ʧɑː",
+       "Frequency": 35
+    },
+    "𐑡": {
+       "Type": "Deep",
+       "IPA Sound": "ʤ",
+       "Name in Latin": "joy",
+       "Name in Shavian": "𐑡𐑶",
+       "Name in IPA": "ʤɔɪ",
+       "Frequency": 36
+    },
+    "𐑘": {
+       "Type": "Tall",
+       "IPA Sound": "j",
+       "Name in Latin": "yen",
+       "Name in Shavian": "𐑘𐑧𐑯",
+       "Name in IPA": "jen",
+       "Frequency": 43
+    },
+    "𐑢": {
+       "Type": "Deep",
+       "IPA Sound": "w",
+       "Name in Latin": "way",
+       "Name in Shavian": "𐑢𐑱",
+       "Name in IPA": "weɪ",
+       "Frequency": 17
+    },
+    "𐑙": {
+       "Type": "Tall",
+       "IPA Sound": "ŋ",
+       "Name in Latin": "song",
+       "Name in Shavian": "𐑕𐑪𐑙",
+       "Name in IPA": "sɒŋ",
+       "Frequency": 29
+    },
+    "𐑣": {
+       "Type": "Deep",
+       "IPA Sound": "h",
+       "Name in Latin": "who",
+       "Name in Shavian": "𐑣𐑵",
+       "Name in IPA": "huː",
+       "Frequency": 25
+    },
+    "𐑤": {
+       "Type": "Short",
+       "IPA Sound": "l",
+       "Name in Latin": "lamb",
+       "Name in Shavian": "𐑤𐑨𐑥",
+       "Name in IPA": "læm",
+       "Frequency": 6
+    },
+    "𐑮": {
+       "Type": "Short",
+       "IPA Sound": "r",
+       "Name in Latin": "roe",
+       "Name in Shavian": "𐑮𐑴",
+       "Name in IPA": "rəʊ",
+       "Frequency": 12
+    },
+    "𐑥": {
+       "Type": "Short",
+       "IPA Sound": "m",
+       "Name in Latin": "me",
+       "Name in Shavian": "𐑥𐑰",
+       "Name in IPA": "miː",
+       "Frequency": 11
+    },
+    "𐑯": {
+       "Type": "Short",
+       "IPA Sound": "n",
+       "Name in Latin": "now",
+       "Name in Shavian": "𐑯𐑬",
+       "Name in IPA": "naʊ",
+       "Frequency": 2
+    },
+    "𐑦": {
+       "Type": "Short",
+       "IPA Sound": "ɪ/~/i",
+       "Name in Latin": "in",
+       "Name in Shavian": "𐑦𐑯",
+       "Name in IPA": "ɪn",
+       "Frequency": 1
+    },
+    "𐑰": {
+       "Type": "Short",
+       "IPA Sound": "iː",
+       "Name in Latin": "eve",
+       "Name in Shavian": "𐑰𐑝",
+       "Name in IPA": "iːv",
+       "Frequency": 20
+    },
+    "𐑧": {
+       "Type": "Short",
+       "IPA Sound": "ɛ",
+       "Name in Latin": "edge",
+       "Name in Shavian": "𐑧𐑡",
+       "Name in IPA": "eeʤ",
+       "Frequency": 13
+    },
+    "𐑱": {
+       "Type": "Short",
+       "IPA Sound": "eɪ",
+       "Name in Latin": "aim",
+       "Name in Shavian": "𐑱𐑥",
+       "Name in IPA": "eɪm",
+       "Frequency": 23
+    },
+    "𐑨": {
+       "Type": "Short",
+       "IPA Sound": "æ",
+       "Name in Latin": "ash",
+       "Name in Shavian": "𐑨𐑖",
+       "Name in IPA": "æʃ",
+       "Frequency": 15
+    },
+    "𐑲": {
+       "Type": "Short",
+       "IPA Sound": "aɪ",
+       "Name in Latin": "eyes",
+       "Name in Shavian": "𐑲𐑟",
+       "Name in IPA": "aɪz",
+       "Frequency": 24
+    },
+    "𐑩": {
+       "Type": "Short",
+       "IPA Sound": "ə",
+       "Name in Latin": "ago",
+       "Name in Shavian": "𐑩𐑜𐑴",
+       "Name in IPA": "əˈɡəʊ",
+       "Frequency": 4
+    },
+    "𐑳": {
+       "Type": "Short",
+       "IPA Sound": "ʌ",
+       "Name in Latin": "up",
+       "Name in Shavian": "𐑳𐑐",
+       "Name in IPA": "ʌp",
+       "Frequency": 26
+    },
+    "𐑪": {
+       "Type": "Short",
+       "IPA Sound": "ɒ",
+       "Name in Latin": "on",
+       "Name in Shavian": "𐑪𐑯",
+       "Name in IPA": "ɒn",
+       "Frequency": 21
+    },
+    "𐑴": {
+       "Type": "Short",
+       "IPA Sound": "əʊ",
+       "Name in Latin": "oath",
+       "Name in Shavian": "𐑴𐑔",
+       "Name in IPA": "əʊθ",
+       "Frequency": 27
+    },
+    "𐑫": {
+       "Type": "Short",
+       "IPA Sound": "ʊ",
+       "Name in Latin": "oomph",
+       "Name in Shavian": "𐑫𐑥𐑓",
+       "Name in IPA": "ʊmf",
+       "Frequency": 39
+    },
+    "𐑵": {
+       "Type": "Short",
+       "IPA Sound": "u(ː)",
+       "Name in Latin": "ooze",
+       "Name in Shavian": "𐑵𐑟",
+       "Name in IPA": "uːz",
+       "Frequency": 33
+    },
+    "𐑬": {
+       "Type": "Short",
+       "IPA Sound": "aʊ",
+       "Name in Latin": "ounce",
+       "Name in Shavian": "𐑬𐑯𐑕",
+       "Name in IPA": "aʊns",
+       "Frequency": 37
+    },
+    "𐑶": {
+       "Type": "Short",
+       "IPA Sound": "ɔɪ",
+       "Name in Latin": "oil",
+       "Name in Shavian": "𐑶𐑤",
+       "Name in IPA": "ɔɪl",
+       "Frequency": 47
+    },
+    "𐑭": {
+       "Type": "Short",
+       "IPA Sound": "ɑː",
+       "Name in Latin": "alms",
+       "Name in Shavian": "𐑭𐑥𐑟",
+       "Name in IPA": "ɑːmz",
+       "Frequency": 44
+    },
+    "𐑷": {
+       "Type": "Short",
+       "IPA Sound": "ɔː",
+       "Name in Latin": "ought",
+       "Name in Shavian": "𐑷𐑑",
+       "Name in IPA": "ɔːt",
+       "Frequency": 40
+    },
+    "𐑸": {
+       "Type": "Compound",
+       "IPA Sound": "ɑː(r)",
+       "Name in Latin": "aria",
+       "Name in Shavian": "𐑸𐑾",
+       "Name in IPA": "ɑːRɪə",
+       "Frequency": 38
+    },
+    "𐑹": {
+       "Type": "Compound",
+       "IPA Sound": "ɔː(r)",
+       "Name in Latin": "aura",
+       "Name in Shavian": "𐑹𐑩",
+       "Name in IPA": "ɔːrə",
+       "Frequency": 32
+    },
+    "𐑺": {
+       "Type": "Compound",
+       "IPA Sound": "ɛə(r)",
+       "Name in Latin": "aero",
+       "Name in Shavian": "𐑺𐑴",
+       "Name in IPA": "eərəʊ",
+       "Frequency": 42
+    },
+    "𐑻": {
+       "Type": "Compound",
+       "IPA Sound": "ɜː(r)",
+       "Name in Latin": "early",
+       "Name in Shavian": "𐑻𐑤𐑦",
+       "Name in IPA": "ɜːRli",
+       "Frequency": 31
+    },
+    "𐑼": {
+       "Type": "Compound",
+       "IPA Sound": "ə(r)",
+       "Name in Latin": "array",
+       "Name in Shavian": "𐑼𐑱",
+       "Name in IPA": "əˈreɪ",
+       "Frequency": 18
+    },
+    "𐑽": {
+       "Type": "Compound",
+       "IPA Sound": "ɪə(r)",
+       "Name in Latin": "eerie",
+       "Name in Shavian": "𐑽𐑦",
+       "Name in IPA": "ɪəri",
+       "Frequency": 45
+    },
+    "𐑾": {
+       "Type": "Compound",
+       "IPA Sound": "ɪə",
+       "Name in Latin": "ian",
+       "Name in Shavian": "𐑾𐑯",
+       "Name in IPA": "ɪən",
+       "Frequency": 46
+    },
+    "𐑿": {
+       "Type": "Compound",
+       "IPA Sound": "ju(ː)",
+       "Name in Latin": "yule",
+       "Name in Shavian": "𐑿𐑤",
+       "Name in IPA": "juːl",
+       "Frequency": 34
+    }
+ }
+ 
