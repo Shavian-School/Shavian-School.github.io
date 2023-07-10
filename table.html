@@ -59,22 +59,26 @@
 
   function buildTable(data) {
     var table = document.getElementById("alphabetTable");
-    var tableHTML = `<table  class="sortable"><thead>
+    var tableHTML = `<table style="word-break: keep-all;" class="sortable"><thead>
         <tr>
-          <th>Type</th>
           <th>Letter</th>
           <th>Name</th>
+          <th>IPA Traditional</th>
+          <th>IPA Modern</th>
           <th>Pronunciation</th>
           <th>Frequency (1=highest)</th>
+          <th>Letter Type</th>
         </tr>
       </thead><tbody>`;
     for (letter in data) {
       tableHTML += `<tr class="item">
-          <td>${data[letter]['Type']}</td>
           <td>${letter}</td>
-          <td>${data[letter]['Name in Latin']}<br/>${data[letter]['Name in Shavian']}<br/>${data[letter]['Name in IPA']}</td>
+          <td>${data[letter]['Name in Latin']}<br/>${data[letter]['Name in Shavian']}</td>
+          <td>${data[letter]['Sound in Traditional IPA']}<br/>${data[letter]['Name in Traditional IPA']}</td>
+          <td>${data[letter]['Sound in Modern IPA']}<br/>${data[letter]['Name in Modern IPA']}</td>
           <td><audio controls src="./audio/${data[letter]['Name in Latin']}.mp3">Your browser does not support the <code>audio</code> element.</audio></td>
           <td>${data[letter]['Frequency']}</td>
+          <td>${data[letter]['Type']}</td>
         </tr>`;
     }
     tableHTML += "</tbody></table>";
