@@ -93,8 +93,56 @@
   
 </script>
 
-<h2 id="alphabet"><a href="#alphabet">Whole Alphabet Table<a></h2>
+<h2 id="alphabet"><a href="#alphabet">Whole Alphabet Table</a></h2>
+<br><button id="copy-button">Copy Table to Clipboard</button><br><br>
+
 <div id="alphabetTable"></div>
+
+<script>
+document.getElementById("copy-button").addEventListener("click", function() {
+  // Get the table HTML
+  var tableHtml = document.getElementById("alphabetTable").outerHTML;
+
+  // Create a temporary textarea to hold the formatted table data
+  var tempTextarea = document.createElement("textarea");
+  tempTextarea.style.position = "absolute";
+  tempTextarea.style.left = "-9999px";
+  document.body.appendChild(tempTextarea);
+  tempTextarea.value = tableToTSV(tableHtml);
+
+  // Copy the data to the clipboard
+  tempTextarea.select();
+  document.execCommand("copy");
+
+  // Clean up the temporary textarea
+  document.body.removeChild(tempTextarea);
+
+  // Inform the user that the table has been copied
+  alert("Table copied to clipboard!");
+});
+
+function tableToTSV(tableHtml) {
+  // Convert the table HTML to TSV format
+  var table = document.createElement("table");
+  table.innerHTML = tableHtml;
+
+  var tsv = "";
+
+  var rows = table.rows;
+  for (var i = 0; i < rows.length; i++) {
+    var cells = rows[i].cells;
+    for (var j = 0; j < cells.length; j++) {
+      tsv += cells[j].innerText.trim();
+      if (j !== cells.length - 1) {
+        tsv += "\t";
+      }
+    }
+    tsv += "\n";
+  }
+
+  return tsv;
+}
+</script>
 
 </body>
 </html>
