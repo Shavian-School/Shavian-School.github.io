@@ -75,10 +75,10 @@
     for (letter in data) {
       tableHTML += `<tr class="item">
           <td>${letter}</td>
-          <td>${data[letter]['Name in Latin']}<br/>${data[letter]['Name in Shavian']}</td>
+          <td>${data[letter]['Name in Latin']} <br/>${data[letter]['Name in Shavian']}</td>
           <td>${data[letter]['Lexical Set'] || ''}</td>
-          <td>${data[letter]['Sound in Traditional IPA']}<br/>${data[letter]['Name in Traditional IPA']}</td>
-          <td>${data[letter]['Sound in Modern IPA']}<br/>${data[letter]['Name in Modern IPA']}</td>
+          <td>${data[letter]['Sound in Traditional IPA']} <br/>${data[letter]['Name in Traditional IPA']}</td>
+          <td>${data[letter]['Sound in Modern IPA']} <br/>${data[letter]['Name in Modern IPA']}</td>
           <td><audio controls src="./audio/${data[letter]['Name in Latin']}.mp3">Your browser does not support the <code>audio</code> element.</audio></td>
           <td data-sort-value="${data[letter]['Frequency']}">${data[letter]['Frequency']}</td>
           <td>${data[letter]['Type']}</td>
@@ -94,7 +94,7 @@
 </script>
 
 <h2 id="alphabet"><a href="#alphabet">Whole Alphabet Table</a></h2>
-<br><button id="copy-button">Copy Table to Clipboard</button><br><br>
+<br/><button id="copy-button">Copy Table to Clipboard</button><br/><br/>
 
 <div id="alphabetTable"></div>
 
